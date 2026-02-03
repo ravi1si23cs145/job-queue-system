@@ -1,0 +1,100 @@
+/* ===== ADMIN LOGIN DARK THEME ===== */
+
+/* Global font scaling */
+html { font-size: 22px; }
+body { font-size: 1rem; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+
+/* Larger controls for improved readability */
+input, button, select, textarea { font-size: 1.25rem; }
+button, .btn-primary { font-size: 1.25rem; }
+label, .form-row label { font-size: 1.25rem; }
+
+/* Larger table text for clarity */
+table { font-size: 1.25rem; }
+
+/* Bump brand sizes slightly */
+.brand { font-size: 1.2rem; }
+.brand-sub, .helper, .login-header p { font-size: 1.1rem; }
+
+.login-wrapper {
+    min-height: auto; /* no full viewport height; occupies only needed space */
+    padding: 36px 0; /* reduce vertical whitespace */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0f0f;
+} 
+
+.login-card {
+    width: 340px;
+    max-width: 92%;
+    background-color: #161616;
+    padding: 20px 22px;
+    border-radius: 10px;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.5);
+} 
+
+.login-header h1 {
+    margin: 0 0 6px 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px; /* larger for clearer heading */
+} 
+
+.login-header p {
+    text-align: center;
+    color: #9ca3af;
+    margin-bottom: 24px;
+}
+
+.form-row {
+    margin-bottom: 16px;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 6px;
+    color: #d1d5db;
+    font-size: 1rem; /* increased for readability */
+}
+
+.form-row input {
+    width: 100%;
+    padding: 14px 16px; /* larger touch target for readability */
+    border-radius: 8px;
+    border: 1px solid #334155;
+    background-color: #020617;
+    color: #ffffff;
+    font-size: 1.125rem;
+    box-sizing: border-box;
+} 
+
+.submit-row {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 14px;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.125rem; /* larger button text */
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+/* Additional global adjustments */
+.brand { font-size: 1.2rem; }
+.brand-sub, .helper, .login-header p { font-size: 1.1rem; }
+.breadcrumbs { font-size: 1rem; }
+
+@media (max-width: 720px) {
+    .login-card { width: 92%; padding: 22px; min-height: auto; }
+    input[type="text"], input[type="password"] { font-size: 1.05rem; padding: 10px 12px; }
+    .btn-primary { width: 100%; font-size: 1.05rem; }
+}

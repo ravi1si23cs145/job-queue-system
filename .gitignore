@@ -1,2 +1,10 @@
-venv
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
 venv/
+
+# Django
+*.log
+.env
